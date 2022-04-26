@@ -5,7 +5,7 @@ CSAPP目前来看一共分为8个lab官网为[CS:APP3e, Bryant and O'Hallaron (c
 如果你是Ubuntu系列的话，我已经写好了脚本，运行下面的命令，即可安装CSAPP的所有lab，以及相关的环境，和中文版的文档翻译。
 
 ```bash
-https://gitee.com/lin-xi-269/csapplab/raw/origin/installAll.sh
+wget https://gitee.com/lin-xi-269/csapplab/raw/origin/installAll.sh
 bash installAll.sh
 ```
 

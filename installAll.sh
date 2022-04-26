@@ -1,8 +1,8 @@
 #! /bin/bash
 # DEBIAN_FRONTEND=noninteractive  
+# apt-get -y install sudo # 如果没有 sudo 的话，得在 root 权限下 安装一下
 sudo apt-get -y update
 sudo apt-get -y install wget
-sudo apt-get -y install sudo
 # 清华源 如果需要可以打开
 # wget https://gitee.com/lin-xi-269/tools/raw/master/os/QHubuntu20.04 && bash QHubuntu20.04
 sudo apt-get install build-essential -y
@@ -36,3 +36,4 @@ sudo apt-get install net-tools
 # lab2 如果 需要 cgdb 工具 的话，可以打开注释
 # wget https://gitee.com/lin-xi-269/csapplab/raw/master/lab2bomb/installCgdb.sh
 # bash installCgdb.sh
+
